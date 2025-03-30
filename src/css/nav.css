@@ -8,7 +8,13 @@ nav {
 
 .logo {
   width: 200px;
-  margin-right: 50px;
+  margin-right: 100px;
+}
+
+nav div {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -17,7 +23,7 @@ nav ul {
   border: 1px solid #3ebcfe;
   padding: 16px 40px;
   border-radius: var(--border-radius);
-  width: 55%;
+  width: 75%;
   display: flex;
   justify-content: space-between;
 }
@@ -51,11 +57,110 @@ nav ul li a:hover::after {
   padding: 16px 0px;
   border-radius: var(--border-radius);
   color: #fff;
-  width: 13%;
+  width: 20%;
   text-align: center;
 }
 
 nav a {
   font-size: 1.2rem;
   text-decoration: none;
+}
+
+.hamburger {
+  width: 34px;
+  height: 25px;
+  transition: all .3s ease-in;
+  display: none;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+  height: 27px;
+  transform: rotate(3deg);
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .logo {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width:970px) {
+  .logo {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .hamburger {
+    display: block;
+  }
+
+  .mobile_nav {
+    position: absolute;
+    top: -500px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #3ebcfe;
+    z-index: 100;
+    text-align: center;
+    transition: top .9s ease-in-out;
+  }
+
+  .mobile_nav.open {
+    top: 120px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    padding: 0px 0px;
+    width: 100%;
+  }
+
+  nav ul li a {
+    padding: 20px 0;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 100%;
+  }
+
+  nav ul li a:hover {
+    background-color: #d7f1ff;
+  }
+
+  .nav-btn {
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 0px;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  nav ul li a::after {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .hamburger {
+    width: 28px;
+    height: 21px;
+    transition: all .3s ease-in;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+    height: 23px;
+    transform: rotate(3deg);
+  }
 }
