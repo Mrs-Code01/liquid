@@ -1,0 +1,134 @@
+.trending {
+  width: var(--container-width);
+  margin: 280px auto 200px;
+  position: relative;
+}
+
+.trending_top {
+  position: absolute;
+  top: -150px;
+  right: 0px;
+}
+
+.trending_top div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.trending_top div h2 {
+  font-size: var(--header-2);
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.trending_top p {
+  font-size: var(--p-tag);
+  font-weight: 700;
+  text-align: right;
+}
+
+.trending_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trending_list_outer_left_container {
+  width: 48%;
+}
+
+.trending_list_inner_left_container {
+  width: 100%;
+}
+
+.trending_list_outer_right_container {
+  width: 48%;
+}
+
+.trending_list_inner_right_container {
+  width: 100%;
+}
+
+.trending_item {
+  background-color: #fff;
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, .1);
+  border-radius: 8px;
+  padding: 20px 20px 20px 85px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.trending_item h3 {
+  font-size: var(--header-3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'urban', Arial, Helvetica, sans-serif;
+}
+
+.trending_item p {
+  font-weight: 600;
+}
+
+.trending_item div p:nth-of-type(1) {
+  font-size: 9px;
+  margin-bottom: 4px;
+}
+
+.trending_item>div {
+  width: 18%;
+  text-align: center;
+}
+
+.trending_item>div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+}
+
+.trending_item>div:nth-of-type(1) img {
+  margin-right: 15px;
+}
+
+.trending_item>div:nth-of-type(3) {
+  position: relative;
+}
+
+.trending_item>div:nth-of-type(3) img {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+.trending a {
+  background: linear-gradient(to bottom, var(--btn-light-color), var(--btn-dark-color));
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: var(--border-radius);
+  padding: 13px 20px;
+  font-size: var(--a-tag);
+  display: inline-block;
+  margin-top: 25px;
+  font-weight: 600;
+  width: 100px;
+  position: absolute;
+  right: 0;
+}
+
+.trending>img {
+  position: absolute;
+  right: -70px;
+  bottom: -230px;
+  z-index: -2;
+}
