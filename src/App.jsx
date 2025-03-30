@@ -13,11 +13,10 @@ const App = () => {
     <div>
       <Nav />
       <Hero />
-      {/* 
       <News />
       <Trending />
       <AboutUs />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
