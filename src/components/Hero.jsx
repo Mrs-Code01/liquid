@@ -15,11 +15,11 @@ const Hero = () => {
         <img src={smalleclipse} alt="" className='hero-small-eclipse' />
         <div className='hero-left'>
           <div>
-            <h1>Stay Ahead Of The Crypto Curve</h1>
+            <h1>Stack Liquidity, Build Wealth</h1>
             <img src={curve} alt="" />
           </div>
           <p>
-            Unlock the full potential of your crypto portfolio—borrow the digital assets you need instantly with flexible terms, or earn passive income by providing liquidity to leading crypto exchanges, all while maintaining complete control and security over your assets.
+            Liquid Block is a Defi-powered liquidity provisioning System that allows users to amplify their capital by borrowing funds, providing liquidity and earning passive income through trading fees and yield rewards
           </p>
           <div className='hero-btn'>
             <a href="#">Sign Up</a>
