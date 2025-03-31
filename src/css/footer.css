@@ -105,6 +105,7 @@ footer {
   cursor: pointer;
   opacity: 1;
   transition: all .3s ease-in;
+  border: 0;
 }
 
 .footer_item_container form button:hover {
@@ -141,5 +142,13 @@ footer {
 
   .footer_container>p {
     text-align: center;
+  }
+
+  .footer_item_container form input {
+    height: 45px;
+  }
+
+  .footer_item_container form button {
+    padding: 13px 25px;
   }
 }
