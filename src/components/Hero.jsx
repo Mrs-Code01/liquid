@@ -1,8 +1,9 @@
 import React from 'react'
 import "../css/hero.css"
 import curve from "../assets/images/curve.png"
-import litecoin from "../assets/images/litecoin.png"
+// import litecoin from "../assets/images/litecoin.png"
 import bigeclipse from "../assets/images/bigeclipse.png"
+import litecoin2 from "../assets/images/litecoin.svg"
 import smalleclipse from "../assets/images/smalleclipse.png"
 import laptop from "../assets/images/laptop.png"
 import bulb from "../assets/images/bulb.png"
@@ -28,7 +29,7 @@ const Hero = () => {
         </div>
 
         <div className='hero-right'>
-          <img src={litecoin} alt="" />
+          <img src={litecoin2} alt="" />
         </div>
         <img src={bigeclipse} alt="" className='hero-big-eclipse' />
       </main>

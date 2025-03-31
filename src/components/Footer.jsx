@@ -1,14 +1,8 @@
 import React from 'react'
 import "../css/footer.css"
 import logo2 from "../assets/images/logo2.png"
-import facebook from "../assets/images/facebook.png"
+import litefooter from "../assets/images/litefooter.png"
 import twitter from "../assets/images/twitter.png"
-import instagram from "../assets/images/instagram.png"
-import linkedin from "../assets/images/linkedin.png"
-import youtube from "../assets/images/youtube.png"
-
-
-
 
 
 const Footer = () => {
@@ -19,13 +13,10 @@ const Footer = () => {
           <h2>Contact Us</h2>
           <div className='footer_item_container'>
             <div>
-              <img src={logo2} alt="" className='footer_logo' />
+              <img src={litefooter} alt="" className='footer_logo' />
               <div className='socials'>
-                <a href="#"><img src={facebook} alt="" /></a>
                 <a href="#"><img src={twitter} alt="" /></a>
-                <a href="#"><img src={instagram} alt="" /></a>
-                <a href="#"><img src={linkedin} alt="" /></a>
-                <a href="#"><img src={youtube} alt="" /></a>
+                <p> contact@liquidblock.xyz </p>
               </div>
             </div>
             <div>
