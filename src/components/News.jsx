@@ -13,7 +13,7 @@ import bluesquares from "../assets/images/bluesquares.png"
 const News = () => {
   return (
     <>
-      <section className='news'>
+      <section className='news' id='news'>
         <div className='news_top'>
           <div>
             <h2>Crypto News</h2>

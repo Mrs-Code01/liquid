@@ -21,7 +21,7 @@ import smalleclipse from "../assets/images/smalleclipse.png"
 const Trending = () => {
   return (
     <>
-      <section className='trending'>
+      <section className='trending' id='trending'>
         <div className='trending_top'>
           <div>
             <img src={bluesquares} alt="" />

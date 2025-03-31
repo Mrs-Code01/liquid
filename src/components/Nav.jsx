@@ -15,10 +15,10 @@ const Nav = () => {
         <div className={`mobile_nav ${isOpen ? "open" : ""}`}>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Crypto News</a></li>
-            <li><a href="#">Trending Projects</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#news">Crypto News</a></li>
+            <li><a href="#trending">Trending Projects</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <a href="#" className='nav-btn'>Get Started</a>
         </div>

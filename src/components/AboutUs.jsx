@@ -10,7 +10,7 @@ import bigeclipse from "../assets/images/bigeclipse.png"
 const AboutUs = () => {
   return (
     <>
-      <section className='about_us'>
+      <section className='about_us' id='about'>
         <div>
           <h2>About Us</h2>
           <img src={bluesquares} alt="" />

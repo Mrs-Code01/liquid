@@ -16,6 +16,9 @@ const App = () => {
       <News />
       <Trending />
       <AboutUs />
+
+
+
       <Footer />
     </div>
   )

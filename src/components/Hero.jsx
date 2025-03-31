@@ -39,7 +39,7 @@ const Hero = () => {
           <div>
             <h3>Crypto Lending</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias hic veritatis fuga nulla tempore atque ullam, animi corporis! Illo consectetur inventore nesciunt, vero hic natus eum assumenda!
+              Easy-to-use borrowing interface that allows users to access liquidity in various cryptocurrencies, flexible loan terms, and instant access to funds for trading, staking, or other investment activities.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Hero = () => {
           <div>
             <h3>Liquidity Provision</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius alias hic veritatis fuga nulla tempore atque ullam, nesciunt, vero hic natus eum assumenda! Consectetur, eveniet! tur inventore nesciunt, vero hic natus eum assumenda! Consect
+              Earning passive income by providing liquidity in selected pairs (with rewards), real-time metrics and performance tracking for liquidity providers, and secure and transparent trannsactions on-chain.
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Hero = () => {
           <div>
             <h3>Security & Transparency</h3>
             <p>
-              Lorem ipsum dolor sit amet alias hic veritatis fuga nulla tempore atque ullam, animi corporis! Illo consectetur inventore nesciunt, vero hic natus eum assumenda!  eveniet! tur inventore nesciunt, vero hic natus eum assumenda! Consect
+              Use of blockchain technology for secure trannsactions and auditability, encrypted wallets, 2FA and KYC processes for users protection <br></br>Transparent fee structures and clear loan terms.
             </p>
           </div>
         </div>

@@ -31,6 +31,7 @@
   position: absolute;
 }
 
+
 .about_us>img:nth-of-type(1) {
   position: absolute;
   top: -50px;
@@ -38,12 +39,26 @@
   bottom: 0;
   z-index: -2;
   width: 450px;
+  opacity: .4;
 }
 
 .about_us>img:nth-of-type(2) {
   position: absolute;
   top: -50px;
-  right: -100px;
+  right: 0px;
   bottom: 0;
   z-index: -2;
+
+}
+
+
+
+@media screen and (max-width:500px) {
+  .about_us div h2 {
+    font-size: 3rem;
+  }
+
+  .about_us div img {
+    width: 40px;
+  }
 }

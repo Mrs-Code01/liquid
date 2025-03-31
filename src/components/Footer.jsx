@@ -14,7 +14,7 @@ import youtube from "../assets/images/youtube.png"
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer id='contact'>
         <div className='footer_container'>
           <h2>Contact Us</h2>
           <div className='footer_item_container'>

@@ -19,10 +19,12 @@ footer {
 .footer_item_container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
 }
 
 .footer_item_container>div {
-  width: 23%;
+  width: 21%;
 }
 
 .footer_item_container>div h3 {
@@ -50,7 +52,7 @@ footer {
 }
 
 .socials a:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .footer_item_container>div ul {
@@ -113,4 +115,31 @@ footer {
   font-size: 1.8rem;
   font-weight: 200;
   margin-top: 70px;
+}
+
+
+@media screen and (max-width:1000px) {
+  .footer_item_container>div {
+    width: 45%;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+  .footer_container h2 {
+    font-size: 3rem;
+    margin-bottom: 80px;
+  }
+
+  .footer_item_container>div {
+    width: 100%;
+  }
+
+  .footer_item_container {
+    text-align: center;
+  }
+
+  .footer_container>p {
+    text-align: center;
+  }
 }
