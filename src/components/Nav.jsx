@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "../css/nav.css"
 import logo from "../assets/images/logo.png"
+import navlogo from "../assets/images/liquidnav.png"
 import hamburger from "../assets/images/hamburger.png"
 
 const Nav = () => {
@@ -11,7 +12,7 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <img src={logo} alt="" className='logo' />
+        <img src={navlogo} alt="" className='logo' />
         <div className={`mobile_nav ${isOpen ? "open" : ""}`}>
           <ul>
             <li><a href="#">Home</a></li>

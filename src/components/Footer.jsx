@@ -1,8 +1,9 @@
 import React from 'react'
 import "../css/footer.css"
-import logo2 from "../assets/images/logo2.png"
+// import logo2 from "../assets/images/logo2.png"
 import litefooter from "../assets/images/litefooter.png"
-import twitter from "../assets/images/twitter.png"
+// import twitter from "../assets/images/twitter.png"
+import newtwitter from "../assets/images/new-twitter.png"
 
 
 const Footer = () => {
@@ -15,7 +16,7 @@ const Footer = () => {
             <div>
               <img src={litefooter} alt="" className='footer_logo' />
               <div className='socials'>
-                <a href="#"><img src={twitter} alt="" /></a>
+                <a href="#"><img src={newtwitter} alt="" /></a>
                 <p> contact@liquidblock.xyz </p>
               </div>
             </div>

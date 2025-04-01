@@ -11,7 +11,8 @@ import image8 from "../assets/images/8.png"
 import image9 from "../assets/images/9.png"
 import image10 from "../assets/images/10.png"
 import arrow from "../assets/images/arrow.png"
-import bluesquares from "../assets/images/bluesquares.png"
+// import bluesquares from "../assets/images/bluesquares.png"
+import trending from "../assets/images/quality.png"
 import smalleclipse from "../assets/images/smalleclipse.png"
 
 
@@ -24,8 +25,8 @@ const Trending = () => {
       <section className='trending' id='trending'>
         <div className='trending_top'>
           <div>
-            <img src={bluesquares} alt="" />
-            <h2>Trending Projects</h2>
+          <img src={trending} alt="Trending" style={{ width: '50px' }} />
+          <h2>Trending Projects</h2>
           </div>
           <p>Top 10 trending projects in the Cryptomarket</p>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import News from './components/News'
+// import News from './components/News'
 import Trending from './components/Trending'
 import AboutUs from './components/AboutUs'
 import Footer from './components/Footer'
@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <Nav />
       <Hero />
-      <News />
+      {/* <News /> */}
       <Trending />
       <AboutUs />
 
