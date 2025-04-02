@@ -14,13 +14,18 @@
   --header-2: 3.5rem;
   --header-3: 1.3rem;
   --p-tag: 1.27rem;
-  --p-line-height: 1.8;
+  /* --p-line-height: 1.8; */
   --footer-light-color: #3ebcfe;
   --footer-dark-color: #257198;
   --btn-light-color: #3ebcfe;
   --btn-dark-color: #053954;
   --border-radius: 25px;
   --container-width: 85%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'urban', Arial, Helvetica, sans-serif;
 }
 
 html {

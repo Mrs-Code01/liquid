@@ -16,7 +16,7 @@ const Hero = () => {
         <img src={smalleclipse} alt="" className='hero-small-eclipse' />
         <div className='hero-left'>
           <div>
-            <h1>Stack Liquidity, Build Wealth</h1>
+            <h1 className='text-6xl'>Stack Liquidity, Build Wealth</h1>
             <img src={curve} alt="" />
           </div>
           <p>

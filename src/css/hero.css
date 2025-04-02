@@ -39,15 +39,15 @@ main {
   width: 200px;
 }
 
-.hero-left h1 {
+/* .hero-left h1 {
   font-size: 5.2rem;
   font-weight: 400;
-}
+} */
 
 .hero-left p {
-  margin: 100px 0 60px;
+  margin: 85px 0 60px;
   font-size: 1.3rem;
-  line-height: var(--p-line-height);
+  /* line-height: var(--p-line-height); */
 }
 
 .hero-right {

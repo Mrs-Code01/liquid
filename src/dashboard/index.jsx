@@ -5,10 +5,12 @@ import "../css/dashboard.css"
 function Dashboard() {
     return (
       <>
-        <div className="main px-8">
-            <Navbar />
-            <Body />
-        </div>
+        <section style={{ backgroundColor: 'oklch(21% 0.034 264.665)' }}>
+            <div className="main px-8">
+                <Navbar />
+                <Body />
+            </div>
+        </section>
       </>
     );
   }
