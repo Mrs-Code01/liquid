@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import "../css/nav.css"
-import logo from "../assets/images/logo.png"
 import navlogo from "../assets/images/liquidnav.png"
 import hamburger from "../assets/images/hamburger.png"
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav>
+      <nav className=''>
         <img src={navlogo} alt="" className='logo' />
         <div className={`mobile_nav ${isOpen ? "open" : ""}`}>
           <ul>
@@ -21,7 +21,7 @@ const Nav = () => {
             <li><a href="#about">About Us</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <a href="#" className='nav-btn'>Get Started</a>
+          <Link to="/dashboard" className="nav-btn">Get Started</Link>
         </div>
         <img src={hamburger} alt="" className='hamburger' onClick={() => setIsOpen(!isOpen)} />
       </nav>

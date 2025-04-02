@@ -1,0 +1,15 @@
+body{
+    background-color: oklch(21% 0.034 264.665);
+}
+.custom_box{
+    background-color: rgba(255, 255, 255, 0.03);
+    border-width: 1px;
+    border-color: rgba(0, 157, 255, 0.121);
+    width: 280px;
+}
+.custom_box2{
+    background-color: rgba(255, 255, 255, 0.03);
+    /* border-width: 1px;
+    border-color: rgba(0, 157, 255, 0.121);
+    width: 280px; */
+}

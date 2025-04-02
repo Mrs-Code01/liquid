@@ -1,3 +1,4 @@
+@import "tailwindcss";
 @font-face {
   font-family: 'aldrich';
   src: url('./assets/Aldrich-Regular.ttf');
@@ -20,14 +21,6 @@
   --btn-dark-color: #053954;
   --border-radius: 25px;
   --container-width: 85%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'urban', Arial, Helvetica, sans-serif;
-  font-size: 10px;
 }
 
 html {
