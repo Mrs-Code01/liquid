@@ -23,12 +23,12 @@ const Hero = () => {
             Liquid Block is a Defi-powered liquidity provisioning System that allows users to amplify their capital by borrowing funds, providing liquidity and earning passive income through trading fees and yield rewards
           </p>
           <div className='hero-btn'>
-            <a href="#">Sign Up</a>
-            <a href="#">Explore Trending</a>
+            <a href="#" className='text-[10px] md:text-base px-3 py-2'>Sign Up</a>
+            <a href="#" className='text-[10px] md:text-base px-3 py-2'>Explore Trending</a>
           </div>
         </div>
 
-        <div className='hero-right'>
+        <div className=''>
           <img src={litecoin2} alt="" />
         </div>
         <img src={bigeclipse} alt="" className='hero-big-eclipse' />
@@ -39,7 +39,7 @@ const Hero = () => {
           <img src={laptop} alt="" />
           <div>
             <h3>Crypto Lending</h3>
-            <p>
+            <p className='text-base'>
               Easy-to-use borrowing interface that allows users to access liquidity in various cryptocurrencies, flexible loan terms, and instant access to funds for trading, staking, or other investment activities.
             </p>
           </div>

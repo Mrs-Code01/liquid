@@ -22,8 +22,8 @@
 }
 
 .about_us p {
-  font-size: var(--p-tag);
-  font-weight: 600;
+  /* font-size: var(--p-tag); */
+  /* font-weight: 600; */
   line-height: var(--p-line-height);
 }
 
